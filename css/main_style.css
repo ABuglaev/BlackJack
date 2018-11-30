@@ -1,0 +1,28 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  background-color: #26261f;
+  overflow: hidden;
+}
+#content {
+  display: block;
+  height: 100%;
+  padding: 68px 20px;
+  text-align: center;
+  overflow: auto;
+  color: #999;
+  background-color: #111;
+  font-size: 1.2em;
+}
+#content p {
+  display: inline-block;
+  text-indent: 10px;
+  margin: 1% 1%;
+}
+
+.invisibleImages {
+  width: 1px;
+  height: 1px;
+}

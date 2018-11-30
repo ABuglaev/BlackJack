@@ -1,0 +1,72 @@
+#header {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 7;
+}
+
+.logo {
+  width: 1.5em;
+}
+
+.vcenter {
+  display: inline-block;
+  float: none;
+  vertical-align: middle;
+}
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(127,127,127,.9);
+}
+
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+#submit_button {
+  background-image: linear-gradient(to bottom,#ddd,#777 100%) !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: none;
+  text-shadow: none;
+}
+#submit_button:hover, #submit_button:focus {
+  background-position: 0 5px;
+}
+#login-dp .form-group input {
+  width: 100%;
+}
+
+@media (max-height: 500px) {
+  .navbar-inverse { 
+    background-color: rgba(127,127,127,0);
+    background-image: none;
+    border: 0px;
+  }
+  .navbar-nav {
+    margin: 0 -15px;
+  }
+  .nav > li > a {
+    padding: 4px 10px;
+  }
+  #nick_wrap,
+  #password_wrap {
+    float: left;
+    margin: 5px 10px;
+    width: 45%;
+  }
+  #submit_wrap {
+    clear: both;
+  }
+  #bs-example-navbar-collapse-1 > ul {
+    background-image: linear-gradient(to bottom,#222,#777 100%);
+  }
+  #login-dp {
+    padding: 0 14px;
+  }
+  #login-dp .form-group {
+    margin-bottom: 5px;
+  }
+}
